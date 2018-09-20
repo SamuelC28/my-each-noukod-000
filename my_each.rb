@@ -7,7 +7,7 @@ def my_each(collection)
       i = i + 1
     end
   else
-    return "Sorry, your code has no give block!"
+    puts "Sorry, your code has no give block!"
   end
   collection
 end
