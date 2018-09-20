@@ -1,14 +1,13 @@
-
 def my_each(collection)
-  # if block_given?
+  if block_given?
     i = 0
     while i < collection.length
       yield(collection[i])
       i = i + 1
     end
-  # else
-  #   return "Sorry, your code has no give block!"
-  # end
+  else
+    return "Sorry, your code has no give block!"
+  end
   collection
 end
 
